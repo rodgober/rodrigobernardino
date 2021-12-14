@@ -2,12 +2,12 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  width: auto;
-  height:100vh;
   background: #18191f;
   font-size: calc(10px + 2vmin);
   align-items: stretch;
   justify-content: space-around;
+
+  width: fit-content;
 
 }
 
