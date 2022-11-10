@@ -1,5 +1,5 @@
 import React from 'react';
-import { linkedin, github, goodreads, devdotto, instagram, spotify, twitter, youtube } from '../types/images';
+import { linkedin, github, goodreads, devdotto, instagram, spotify, twitter, youtube, mastodon } from '../types/images';
 import styles from './Links.module.css';
 import styled from '@emotion/styled';
 
@@ -53,13 +53,25 @@ const Links = () => {
                     alt="Spotify icon"
                 />
             </a>
+
+            <a target="_blank" rel="noopener"
+                name="Twitter"
+                href="https://mstdn.social/@rodgober">
+                <img
+                    id="5"
+                    key="5"
+                    src={mastodon.default}
+                    className={`${styles.icon}`}
+                    alt="Mastodon icon"
+                />
+            </a>
             
             <a target="_blank" rel="noopener"
                 name="Twitter"
                 href="https://twitter.com/Minnony">
                 <img
-                    id="5"
-                    key="5"
+                    id="6"
+                    key="6"
                     src={twitter.default}
                     className={`${styles.icon}`}
                     alt="Twitter icon"
@@ -70,8 +82,8 @@ const Links = () => {
                 name="DevDotTo"
                 href="https://dev.to/rodgober">
                 <img
-                    id="6"
-                    key="6"
+                    id="7"
+                    key="7"
                     src={devdotto.default}
                     className={`${styles.icon}`}
                     alt="Dev.To icon"
@@ -82,8 +94,8 @@ const Links = () => {
                 name="Instagram"
                 href="https://www.instagram.com/rodgoberna/">
                 <img
-                    id="7"
-                    key="7"
+                    id="8"
+                    key="8"
                     src={instagram.default}
                     className={`${styles.icon}`}
                     alt="Instagram icon"
@@ -94,8 +106,8 @@ const Links = () => {
                 name="YouTube"
                 href="https://www.youtube.com/channel/UCGVMNs6Mp3wnIXta-ly915w">
                 <img
-                    id="8"
-                    key="8"
+                    id="9"
+                    key="9"
                     src={youtube.default}
                     className={`${styles.icon}`}
                     alt="Youtube icon"
